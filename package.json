@@ -1,0 +1,27 @@
+{
+  "name": "rendertests",
+  "version": "1.0.0",
+  "private": true,
+  "main": "index.js",
+  "scripts": {
+    "start:dev": "webpack-dev-server"
+  },
+  "repository": "https://github.com/Danomanic/rendertests.git",
+  "author": "Daniel Pomfret <dan@coly.uk>",
+  "license": "MIT",
+  "dependencies": {
+    "cannon": "^0.6.2",
+    "express": "^4.17.1",
+    "physijs": "^1.0.4",
+    "stats.js": "^0.17.0",
+    "three": "^0.119.1",
+    "webworkify": "^1.5.0",
+    "worker-loader": "^3.0.2"
+  },
+  "devDependencies": {
+    "physijs-webpack": "^0.1.4",
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.0"
+  }
+}
